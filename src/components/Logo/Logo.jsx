@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import PATH from 'helpers/constants/pathPages';
+import PATH from 'helpers/pages/pathPages';
 import { Link as RouterLink } from 'react-router-dom';
 import { StyledLink, StyledLinkMobile } from './Logo.styled';
 import AutoStoriesIcon from '@mui/icons-material/AutoStories';
