@@ -2,7 +2,7 @@ import PropTypes from 'prop-types';
 import PATH from 'helpers/pages/pathPages';
 import { Link as RouterLink } from 'react-router-dom';
 import { StyledLink, StyledLinkMobile } from './Logo.styled';
-import AutoStoriesIcon from '@mui/icons-material/AutoStories';
+import {BookHalf} from 'react-bootstrap-icons';
 
 const Logo = ({ sx = {} }) => {
   return (
@@ -23,7 +23,7 @@ const Logo = ({ sx = {} }) => {
           ...sx,
         }}
       >
-        <AutoStoriesIcon sx={{ fontSize: 'inherit' }} /> PHONEBOOK
+        <BookHalf sx={{ fontSize: 'inherit' }} /> PHONEBOOK
       </StyledLink>
       <StyledLinkMobile
         variant="h5"
@@ -40,7 +40,7 @@ const Logo = ({ sx = {} }) => {
           ...sx,
         }}
       >
-        <AutoStoriesIcon sx={{ fontSize: 30 }} /> PB
+        <BookHalf sx={{ fontSize: 30 }} /> PB
       </StyledLinkMobile>
     </>
   );

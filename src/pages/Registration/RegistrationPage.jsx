@@ -2,7 +2,7 @@ import RegistrationForm from 'components/RegistrationForm/RegistrationForm';
 import { BottomText, Main, StyledLink } from 'pages/common/common.styled';
 import ParticlesBox from 'components/ParticlesBox/ParticlesBox';
 import { CenteredContainer } from 'pages/common/common.styled';
-import PageTitle from 'components/PageTitle/PageTitle';
+import {PageTitle} from 'components/PageTitle/PageTitle';
 import { Container } from '@mui/material';
 
 const RegistrationPage = () => {

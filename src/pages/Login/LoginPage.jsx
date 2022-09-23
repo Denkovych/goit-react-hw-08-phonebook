@@ -2,7 +2,7 @@ import LoginForm from 'components/LoginForm/LoginForm';
 import { BottomText, Main, StyledLink } from 'pages/common/common.styled';
 import { CenteredContainer } from 'pages/common/common.styled';
 import ParticlesBox from 'components/ParticlesBox/ParticlesBox';
-import PageTitle from 'components/PageTitle/PageTitle';
+import {PageTitle} from 'components/PageTitle/PageTitle';
 import { Container } from '@mui/material';
 
 const LoginPage = () => {

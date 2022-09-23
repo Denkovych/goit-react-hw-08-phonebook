@@ -6,7 +6,7 @@ import {
     InputLabel,
     OutlinedInput,
   } from '@mui/material';
-  import { Visibility, VisibilityOff } from '@mui/icons-material';
+  import { EyeFill, EyeSlashFill } from 'react-bootstrap-icons';
   import { useState } from 'react';
   import { ButtonSubmit, InputWrapper, StyledForm } from './LoginForm.styled';
   import { useFormik } from 'formik';
@@ -84,7 +84,7 @@ import {
                   onClick={() => setShowPassword(!showPassword)}
                   edge="end"
                 >
-                  {showPassword ? <VisibilityOff /> : <Visibility />}
+                  {showPassword ? <EyeSlashFill /> : <EyeFill />}
                 </IconButton>
               </InputAdornment>
             }

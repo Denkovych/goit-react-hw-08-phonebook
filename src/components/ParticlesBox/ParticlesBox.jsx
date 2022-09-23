@@ -1,7 +1,7 @@
 import Particles from 'react-particles';
 import { loadFull } from 'tsparticles';
 import { useCallback } from 'react';
-import phonebookBg from '../../images/phonebook-bg.jpg';
+
 
 const ParticlesBox = () => {
   const particlesInit = useCallback(async engine => {
@@ -22,7 +22,7 @@ const ParticlesBox = () => {
           color: {
             value: '#ffffff',
           },
-          image: `url(${phonebookBg})`,
+          /*image: `url(${phonebookBg})`,*/
           position: '50% 50%',
           repeat: 'no-repeat',
           size: 'cover',

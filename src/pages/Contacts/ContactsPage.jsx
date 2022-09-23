@@ -1,6 +1,6 @@
 import { Button, Container } from '@mui/material';
 import { ContactsList } from 'components';
-import PageTitle from 'components/PageTitle/PageTitle';
+import {PageTitle} from 'components/PageTitle/PageTitle';
 import { useFilteredContacts } from 'hooks/useFilteredContacts';
 import { Outlet } from 'react-router-dom';
 import {

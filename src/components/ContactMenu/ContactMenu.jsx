@@ -1,7 +1,7 @@
 import * as React from 'react';
 import PropTypes from 'prop-types';
 import { Box, IconButton, Link, MenuItem, Menu } from '@mui/material';
-import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
+import {ArrowDownCircle} from 'react-bootstrap-icons';
 import { Link as RouterLink } from 'react-router-dom';
 import { useDispatch } from 'react-redux';
 import { setContactId } from 'redux/slice/contactIdSlice';
@@ -40,7 +40,7 @@ const ContactMenu = ({ number, id }) => {
             color="primary"
             aria-label="Menu"
           >
-            <ArrowDropDownIcon />
+            <ArrowDownCircle />
           </IconButton>
 
           <Menu

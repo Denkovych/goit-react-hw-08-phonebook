@@ -1,4 +1,4 @@
-import { Visibility, VisibilityOff } from '@mui/icons-material';
+import { EyeFill, EyeSlashFill } from 'react-bootstrap-icons';
 import { useState } from 'react';
 import {
   Alert,
@@ -107,7 +107,7 @@ const RegistrationForm = () => {
                 onClick={() => setShowPassword(!showPassword)}
                 edge="end"
               >
-                {showPassword ? <VisibilityOff /> : <Visibility />}
+                {showPassword ? <EyeSlashFill /> : <EyeFill />}
               </IconButton>
             </InputAdornment>
           }
