@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
 import { NavLink as RouterLink } from 'react-router-dom';
-import PATH from 'helpers/constants/pathPages';
-import { publicPages, privatePages } from 'helpers/constants/pages';
+import PATH from 'helpers/pages/pathPages';
+import { publicPages, privatePages } from 'helpers/pages/pages';
 import { NavLink } from './MainMenu.styled';
 
 const MainMenu = ({ isLoggedIn, handleCloseNavMenu }) => {
