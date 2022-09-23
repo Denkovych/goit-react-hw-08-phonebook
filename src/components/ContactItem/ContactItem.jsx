@@ -9,7 +9,7 @@ import { memo } from 'react';
 import { Paper } from '@mui/material';
 import ContactMenu from 'components/ContactMenu/ContactMenu';
 import { Phone } from 'react-bootstrap-icons';
-import AccountBoxIcon from 'bootstrap-icons/AccountBox';
+import { FilePersonFill } from 'react-bootstrap-icons';
 import BasicAvatar from 'components/BasicAvatar/BasicAvatar';
 import { useFilter } from 'hooks/useFilter';
 
@@ -60,7 +60,7 @@ const ContactItem = ({ id, name, number }) => {
 
           <ContentWrapper>
             <Contact>
-              <AccountBoxIcon color="primary" />
+              <FilePersonFill color="primary" />
               {getSelectedName(name)}
             </Contact>
             <Contact>
