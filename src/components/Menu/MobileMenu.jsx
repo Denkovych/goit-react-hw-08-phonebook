@@ -1,9 +1,9 @@
 import PropTypes from 'prop-types';
 import { IconButton, Menu, MenuItem } from '@mui/material';
 import MenuIcon from '@mui/icons-material/Menu';
-import PATH from 'helpers/constants/pathPages';
+import PATH from 'helpers/pages/pathPages';
 import { NavLink as RouterLink } from 'react-router-dom';
-import { publicPages, privatePages } from 'helpers/constants/pages';
+import { publicPages, privatePages } from 'helpers/pages/pages';
 import { NavLinkMobile } from './MainMenu.styled';
 
 const MobileMenu = ({
