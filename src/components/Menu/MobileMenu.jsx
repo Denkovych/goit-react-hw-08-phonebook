@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 import { IconButton, Menu, MenuItem } from '@mui/material';
-import MenuIcon from '@mui/icons-material/Menu';
+import {Justify} from 'react-bootstrap-icons';
 import PATH from 'helpers/pages/pathPages';
 import { NavLink as RouterLink } from 'react-router-dom';
 import { publicPages, privatePages } from 'helpers/pages/pages';
@@ -22,7 +22,7 @@ const MobileMenu = ({
         onClick={handleOpenNavMenu}
         color="inherit"
       >
-        <MenuIcon />
+        <Justify />
       </IconButton>
       <Menu
         id="menu-appbar"
