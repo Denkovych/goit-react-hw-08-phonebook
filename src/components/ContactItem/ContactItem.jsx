@@ -8,8 +8,8 @@ import {
 import { memo } from 'react';
 import { Paper } from '@mui/material';
 import ContactMenu from 'components/ContactMenu/ContactMenu';
-import PhoneIcon from '@mui/icons-material/Phone';
-import AccountBoxIcon from '@mui/icons-material/AccountBox';
+import { Phone } from 'react-bootstrap-icons';
+import AccountBoxIcon from 'bootstrap-icons/AccountBox';
 import BasicAvatar from 'components/BasicAvatar/BasicAvatar';
 import { useFilter } from 'hooks/useFilter';
 
@@ -64,7 +64,7 @@ const ContactItem = ({ id, name, number }) => {
               {getSelectedName(name)}
             </Contact>
             <Contact>
-              <PhoneIcon color="primary" />
+              <Phone color="primary" />
               {number}
             </Contact>
           </ContentWrapper>
